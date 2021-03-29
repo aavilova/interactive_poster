@@ -1,0 +1,106 @@
+@media all and (max-width: 1920px) {
+ .frame_mobile {display: none;}
+ .bats_mobile {display: none;}
+}
+@media all and (max-width: 768px) {
+  .rectangle {
+    transform: rotate(90deg) scale(1.5);
+    position: absolute;
+    top: 25%;
+    left: 2%;
+  }
+  .moonloading {
+    transform: rotate(-90deg);
+  }
+  #second, #third {
+    background-image: url("../images/frame_mobile.svg");
+    background-size: 96% auto;
+    background-position: 2vw 2vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+  }
+  .frame {
+    display: none;
+  }
+  .frame_mobile {
+    display: block;
+  }
+
+  /* second section */
+
+  .bats {
+    display: none;
+  }
+  .bats_mobile {
+    display: block;
+  }
+  .text_3 {
+    top: 15vw;
+    left: 30vw;
+    width: 38vw;
+    font-size: 3.2vw;
+    line-height: 3.5vw;
+  }
+  .hands {
+    top: 37vw;
+    transform: scale(1.3);
+  }
+  .button_1 {
+    top: 36vw;
+    transform: scale(1.5);
+  }
+  .flower {
+    top: 42.5vw;
+    transform: scale(1.5);
+  }
+  .card {left: 17vw;}
+  .card2 {left: 43vw;}
+  .card3 {
+    left: auto;
+    right: 17vw;
+  }
+  .card, .card2, .card3 {
+    top: 62vw;
+    transform: scale(1.5);
+  }
+  .text_4_head {
+    top: 98vw;
+    left: 23.5vw;
+    font-size: 4vw;
+  }
+  .text_5 {
+    top: 105vw;
+    left: 21vw;
+    width: 60vw;
+    font-size: 3.3vw;
+    line-height: 3.6vw;
+  }
+
+  /* third section */
+
+  .button_x {
+    transform: scale(1.8);
+    left: 45vw;
+    top: 124vw;
+  }
+  .text_1_head {
+    top: 75vw;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 4.9vw;
+  }
+  .text_2 {
+    top: 83vw;
+    left: 26vw;
+    width: 56vw;
+    font-size: 3.5vw;
+    line-height: 3.8vw;
+  }
+  .carda {
+    transform: scale(1.5);
+    left: 38vw;
+    top: 22.5vw;
+  }
+}
